@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title> Calculadora</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+		var numero1=prompt( "Insira o Primeiro Numero");
+		var numero2=prompt("Insira o 2 numero");
+		var operacao=prompt("Qual operação deseja realizar?(Digite + ou- ou * ou/)");
+ 
+		var resultooperacao=0;
+
+		if(operacao=='+')
+			resultooperacao=soma(numero1,numero2);
+		if(operacao=='-')
+			resultooperacao=diminui(numero1,numero2);
+		if(operacao=='*')
+			resultooperacao=multiplica(numero1,numero2);
+		if(operacao=='/')
+			resultooperacao=divide(numero1,numero2);
+
+		alert( 'O resultado da operacao é igual a:' + resultooperacao);
+
+		function soma(numero1,numero2);{
+			return parseint(numero1)+parseint(numero2);}
+		function diminui(numero1,numero2);{
+			return parseint(numero1)+parseint(numero2);}
+		function multiplica(numero1,numero2);{
+			return parseint(numero1)+parseint(numero2);}
+		function divide(numero1,numero2);{
+			return parseint(numero1)+parseint(numero2);}
+
+	</script>
+	
+
+</body>
+
+</html>
